@@ -12,16 +12,5 @@ const revealVariants: Variants = {
 };
 
 export function Reveal({ children }: PropsWithChildren) {
-  return (
-    // <motion.div
-    //   initial="hidden"
-    //   whileInView="visible"
-    //   viewport={{ once: true, margin: "-80px" }}
-    //   variants={revealVariants}
-    // >
-    <>
-      {children}
-    </>
-    // </motion.div>
-  );
+  return <>{children}</>;
 }
